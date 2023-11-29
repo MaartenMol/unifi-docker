@@ -10,7 +10,7 @@ LABEL maintainer="Jacob Alberty <jacob.alberty@foundigital.com>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ARG PKGURL=https://dl.ui.com/unifi/7.5.176/unifi_sysvinit_all.deb
+ARG PKGURL=https://dl.ui.com/unifi/8.0.21-b842e932e5/unifi_sysvinit_all.deb
 
 ENV BASEDIR=/usr/lib/unifi \
     DATADIR=/unifi/data \
@@ -26,8 +26,8 @@ ENV BASEDIR=/usr/lib/unifi \
     GOSU_VERSION=1.10 \
     BIND_PRIV=true \
     RUNAS_UID0=true \
-    UNIFI_GID=999 \
-    UNIFI_UID=999
+    UNIFI_GID=101 \
+    UNIFI_UID=101
 
 # Install gosu
 # https://github.com/tianon/gosu/blob/master/INSTALL.md
