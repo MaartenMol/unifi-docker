@@ -10,7 +10,7 @@ LABEL maintainer="Jacob Alberty <jacob.alberty@foundigital.com>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ARG PKGURL=https://dl.ui.com/unifi/8.1.111-8c39084ac4/unifi_sysvinit_all.deb
+ARG PKGURL=https://dl.ui.com/unifi/8.1.113-133ae7f813/unifi_sysvinit_all.deb
 
 ENV BASEDIR=/usr/lib/unifi \
     DATADIR=/unifi/data \
